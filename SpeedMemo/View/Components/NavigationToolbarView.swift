@@ -8,25 +8,20 @@
 import SwiftUI
 
 struct NavigationToolbarView: View {
-    @EnvironmentObject private var viewModel: ContentViewModel
+    @ObservedObject var viewModel = ContentViewModel.shared
+    var focus: FocusState<Bool>.Binding
     
     var body: some View {
         // 完了ボタン
         Button {
-            viewModel.isFocus = false
+            focus.wrappedValue = false
         } label: {
             Image(systemName: "checkmark")
                 .resizable()
-                .asButton()
-                .foregroundColor(viewModel.isFocus ? Color("Able") : Color("Disable"))
+                .scaledToFit()
+                .frame(width: toolbarButtonsSize)
+                .foregroundColor(focus.wrappedValue || viewModel.text.count == 0 ? able : disable)
         }
-        .disabled(!viewModel.isFocus)
-    }
-}
-
-struct NavigationToolbarView_Previews: PreviewProvider {
-    static var previews: some View {
-        NavigationToolbarView()
-            .environmentObject(ContentViewModel())
+        .disabled(!focus.wrappedValue)
     }
 }

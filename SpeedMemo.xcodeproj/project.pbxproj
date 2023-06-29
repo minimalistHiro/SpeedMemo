@@ -7,31 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1CF0C15BD6761A01CC88068A /* Pods_SpeedMemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F331B4562E172DECF92A586 /* Pods_SpeedMemo.framework */; };
 		FD41B52629FB873D008E3F94 /* SpeedMemoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD41B52529FB873D008E3F94 /* SpeedMemoApp.swift */; };
 		FD41B52A29FB873F008E3F94 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD41B52929FB873F008E3F94 /* Assets.xcassets */; };
 		FD41B52D29FB873F008E3F94 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD41B52C29FB873F008E3F94 /* Preview Assets.xcassets */; };
-		FD41B53A29FB89E7008E3F94 /* Entity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD41B53929FB89E7008E3F94 /* Entity.swift */; };
+		FD41B53A29FB89E7008E3F94 /* TextData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD41B53929FB89E7008E3F94 /* TextData.swift */; };
 		FD41B53D29FB948D008E3F94 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD41B53C29FB948D008E3F94 /* ContentViewModel.swift */; };
 		FD41B54129FB94CB008E3F94 /* BottomToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD41B54029FB94CB008E3F94 /* BottomToolbarView.swift */; };
 		FD41B54B29FBA40F008E3F94 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD41B54A29FBA40F008E3F94 /* ContentView.swift */; };
-		FD41B55329FE34D4008E3F94 /* ButtonModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD41B55229FE34D4008E3F94 /* ButtonModifier.swift */; };
-		FD41B55529FE3522008E3F94 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD41B55429FE3522008E3F94 /* ViewExtension.swift */; };
 		FD41B55729FE4128008E3F94 /* NavigationToolbarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD41B55629FE4128008E3F94 /* NavigationToolbarView.swift */; };
+		FD4F86702A34879700F83D26 /* AlertModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F866F2A34879700F83D26 /* AlertModifier.swift */; };
+		FD4F86722A3489D700F83D26 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD4F86712A3489D700F83D26 /* ViewExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9F331B4562E172DECF92A586 /* Pods_SpeedMemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SpeedMemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A45E1425A2AD9E560F584D2A /* Pods-SpeedMemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedMemo.debug.xcconfig"; path = "Target Support Files/Pods-SpeedMemo/Pods-SpeedMemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D5B40CBCABFAB92CCC518284 /* Pods-SpeedMemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SpeedMemo.release.xcconfig"; path = "Target Support Files/Pods-SpeedMemo/Pods-SpeedMemo.release.xcconfig"; sourceTree = "<group>"; };
 		FD41B52229FB873D008E3F94 /* SpeedMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpeedMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD41B52529FB873D008E3F94 /* SpeedMemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeedMemoApp.swift; sourceTree = "<group>"; };
 		FD41B52929FB873F008E3F94 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD41B52C29FB873F008E3F94 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		FD41B53929FB89E7008E3F94 /* Entity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity.swift; sourceTree = "<group>"; };
+		FD41B53929FB89E7008E3F94 /* TextData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextData.swift; sourceTree = "<group>"; };
 		FD41B53C29FB948D008E3F94 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 		FD41B54029FB94CB008E3F94 /* BottomToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomToolbarView.swift; sourceTree = "<group>"; };
 		FD41B54A29FBA40F008E3F94 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		FD41B55229FE34D4008E3F94 /* ButtonModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModifier.swift; sourceTree = "<group>"; };
-		FD41B55429FE3522008E3F94 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 		FD41B55629FE4128008E3F94 /* NavigationToolbarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationToolbarView.swift; sourceTree = "<group>"; };
 		FD41B55829FE58E8008E3F94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FD4F866F2A34879700F83D26 /* AlertModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertModifier.swift; sourceTree = "<group>"; };
+		FD4F86712A3489D700F83D26 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +43,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1CF0C15BD6761A01CC88068A /* Pods_SpeedMemo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5AC4553C32E7C7E92A0867A4 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A45E1425A2AD9E560F584D2A /* Pods-SpeedMemo.debug.xcconfig */,
+				D5B40CBCABFAB92CCC518284 /* Pods-SpeedMemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		8EAB2F0B6378A7CC5358D16F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F331B4562E172DECF92A586 /* Pods_SpeedMemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FD41B51929FB873D008E3F94 = {
 			isa = PBXGroup;
 			children = (
 				FD41B52429FB873D008E3F94 /* SpeedMemo */,
 				FD41B52329FB873D008E3F94 /* Products */,
+				5AC4553C32E7C7E92A0867A4 /* Pods */,
+				8EAB2F0B6378A7CC5358D16F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -104,7 +128,7 @@
 		FD41B53529FB87B0008E3F94 /* Model */ = {
 			isa = PBXGroup;
 			children = (
-				FD41B53929FB89E7008E3F94 /* Entity.swift */,
+				FD41B53929FB89E7008E3F94 /* TextData.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -130,7 +154,7 @@
 		FD41B55029FE3483008E3F94 /* Modifier */ = {
 			isa = PBXGroup;
 			children = (
-				FD41B55229FE34D4008E3F94 /* ButtonModifier.swift */,
+				FD4F866F2A34879700F83D26 /* AlertModifier.swift */,
 			);
 			path = Modifier;
 			sourceTree = "<group>";
@@ -138,7 +162,7 @@
 		FD41B55129FE348B008E3F94 /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				FD41B55429FE3522008E3F94 /* ViewExtension.swift */,
+				FD4F86712A3489D700F83D26 /* ViewExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -150,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD41B53029FB873F008E3F94 /* Build configuration list for PBXNativeTarget "SpeedMemo" */;
 			buildPhases = (
+				9F1CF8E2F92BAABC6D456C40 /* [CP] Check Pods Manifest.lock */,
 				FD41B51E29FB873D008E3F94 /* Sources */,
 				FD41B51F29FB873D008E3F94 /* Frameworks */,
 				FD41B52029FB873D008E3F94 /* Resources */,
+				150B489B473EE3414BF09DEA /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -209,18 +235,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		150B489B473EE3414BF09DEA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeedMemo/Pods-SpeedMemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SpeedMemo/Pods-SpeedMemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SpeedMemo/Pods-SpeedMemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F1CF8E2F92BAABC6D456C40 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SpeedMemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FD41B51E29FB873D008E3F94 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD41B55329FE34D4008E3F94 /* ButtonModifier.swift in Sources */,
-				FD41B53A29FB89E7008E3F94 /* Entity.swift in Sources */,
+				FD41B53A29FB89E7008E3F94 /* TextData.swift in Sources */,
 				FD41B54129FB94CB008E3F94 /* BottomToolbarView.swift in Sources */,
-				FD41B55529FE3522008E3F94 /* ViewExtension.swift in Sources */,
 				FD41B55729FE4128008E3F94 /* NavigationToolbarView.swift in Sources */,
 				FD41B54B29FBA40F008E3F94 /* ContentView.swift in Sources */,
+				FD4F86702A34879700F83D26 /* AlertModifier.swift in Sources */,
 				FD41B52629FB873D008E3F94 /* SpeedMemoApp.swift in Sources */,
+				FD4F86722A3489D700F83D26 /* ViewExtension.swift in Sources */,
 				FD41B53D29FB948D008E3F94 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +412,7 @@
 		};
 		FD41B53129FB873F008E3F94 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A45E1425A2AD9E560F584D2A /* Pods-SpeedMemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -354,6 +423,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SpeedMemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "1画面メモ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -375,6 +445,7 @@
 		};
 		FD41B53229FB873F008E3F94 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D5B40CBCABFAB92CCC518284 /* Pods-SpeedMemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -385,6 +456,7 @@
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SpeedMemo/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "1画面メモ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

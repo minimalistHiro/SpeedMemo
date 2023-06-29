@@ -2,13 +2,13 @@
 //  ViewExtension.swift
 //  SpeedMemo
 //
-//  Created by 金子広樹 on 2023/04/30.
+//  Created by 金子広樹 on 2023/06/10.
 //
 
 import SwiftUI
 
 extension View {
-    func asButton() -> some View {
-        modifier(ButtonModifier())
+    func asAlert() -> some View {
+        modifier(AlertModifier())
     }
 }
